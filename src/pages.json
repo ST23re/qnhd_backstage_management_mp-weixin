@@ -1,0 +1,94 @@
+{
+    "easycom": {
+        "^u-(.*)": "uview-ui/components/u-$1/u-$1.vue"
+    },
+    "pages": [
+        {
+            "path": "pages/login/index",
+            "style": {
+                "navigationBarTitleText": "登录-青年湖底管理后台"
+            }
+        },
+        {
+            "path": "pages/index/index",
+            "style": {
+                "navigationBarTitleText": "主页-青年湖底管理后台"
+            }
+        },
+        {
+            "path": "pages/user/index",
+            "style": {
+                "navigationBarTitleText": "用户管理-青年湖底管理后台"
+            }
+        },
+        {
+            "path": "pages/content/index",
+            "style": {
+                "navigationBarTitleText": "内容管理-青年湖底管理后台"
+            }
+        },
+        {
+            "path": "pages/content/detail/index",
+            "style": {
+                "navigationBarTitleText": "帖子详情-青年湖底管理后台"
+            }
+        },
+        {
+            "path": "pages/content/detail/subdetail/index",
+            "style": {
+                "navigationBarTitleText": "回复详情-青年湖底管理后台"
+            }
+        },
+        {
+            "path": "pages/notice/index",
+            "style": {
+                "navigationBarTitleText": "公告管理-青年湖底管理后台"
+            }
+        },
+        {
+            "path": "pages/superAdmin/index",
+            "style": {
+                "navigationBarTitleText": "超级管理-青年湖底管理后台"
+            }
+        },
+        {
+            "path": "pages/logPage/index",
+            "style": {
+                "navigationBarTitleText": "操作日志-青年湖底管理后台"
+            }
+        },
+        {
+            "path": "pages/tag/index",
+            "style": {
+                "navigationBarTitleText": "分区管理-青年湖底管理后台"
+            }
+        },
+        {
+            "path": "pages/info/index",
+            "style": {
+                "navigationBarTitleText": "个人信息-青年湖底管理后台"
+            }
+        },
+        {
+            "path": "pages/games/index",
+            "style": {
+                "navigationBarTitleText": "游戏管理-青年湖底管理后台"
+            }
+        },
+        {
+            "path": "pages/sensitive/index",
+            "style": {
+                "navigationBarTitleText": "敏感词条-青年湖底管理后台"
+            }
+        }
+    ],
+    "globalStyle": {
+        "navigationBarTextStyle": "black",
+        "navigationBarBackgroundColor": "#f5f5f5",
+        "navigationStyle":"custom",
+        "backgroundColor": "#ffffff",
+        "h5": {
+            "titleNView": false
+        }
+    }
+}
